@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <p class="advice-id">Advice #<span id="advice-id">0</span></p>
+        <p class="advice-text">"<span id="advice-text">Loading...</span>"</p>
+
+        <div class="divider">
+          <img
+            src="./images/pattern-divider-mobile.svg"
+            alt=""
+            class="divider-mobile"
+          />
+          <img
+            src="./images/pattern-divider-desktop.svg"
+            alt=""
+            class="divider-desktop"
+          />
+        </div>
+
+        <button
+          class="dice-button"
+          id="dice-button"
+          aria-label="Get new advice"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 0H4C1.8 0 0 1.8 0 4V20C0 22.2 1.8 24 4 24H20C22.2 24 24 22.2 24 20V4C24 1.8 22.2 0 20 0ZM7 18C5.9 18 5 17.1 5 16C5 14.9 5.9 14 7 14C8.1 14 9 14.9 9 16C9 17.1 8.1 18 7 18ZM7 9C5.9 9 5 8.1 5 7C5 5.9 5.9 5 7 5C8.1 5 9 5.9 9 7C9 8.1 8.1 9 7 9ZM12 13.5C10.6 13.5 9.5 12.4 9.5 11C9.5 9.6 10.6 8.5 12 8.5C13.4 8.5 14.5 9.6 14.5 11C14.5 12.4 13.4 13.5 12 13.5ZM17 18C15.9 18 15 17.1 15 16C15 14.9 15.9 14 17 14C18.1 14 19 14.9 19 16C19 17.1 18.1 18 17 18ZM17 9C15.9 9 15 8.1 15 7C15 5.9 15.9 5 17 5C18.1 5 19 5.9 19 7C19 8.1 18.1 9 17 9Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Faidat Babatunde</a>.
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
